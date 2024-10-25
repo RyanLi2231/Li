@@ -11,5 +11,11 @@ public class Bacon {
             Bacon = "Chewy Bacon";
         }
         System.out.println(Bacon);
+        rand = (int) (Math.random() * 2);
+        if (rand == 0) {
+            Bacon += "Apple Pie";
+        } else {
+            Bacon += "Banana Split";
+        }
     }
 }

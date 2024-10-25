@@ -14,5 +14,7 @@ public class Apple {
             }
             number2 = 1;
         }
+        String banana = "Burger";
+        System.out.println(banana);
     }
 }

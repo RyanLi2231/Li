@@ -12,7 +12,7 @@ public class Apple {
                 System.out.println("Banana " + number2);
                 number2++;
             }
-            number2 = 0;
+            number2 = 1;
         }
     }
 }
